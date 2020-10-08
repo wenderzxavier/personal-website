@@ -2,15 +2,24 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "personal website",
+    "wender",
+    "web development"
+  ],
   "main": "src/index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.31",
+    "@fortawesome/free-solid-svg-icons": "5.15.0",
+    "@fortawesome/react-fontawesome": "0.1.11",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.5",
+    "enzyme-to-json": "3.6.1",
+    "jest": "26.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-scripts": "3.4.3"
-  },
-  "devDependencies": {
-    "typescript": "3.8.3"
+    "react-scripts": "3.4.3",
+    "styled-components": "5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
