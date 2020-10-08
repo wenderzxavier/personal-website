@@ -1,5 +1,7 @@
 import React, { useLayoutEffect } from "react";
-import { BackCard, CardFlipper, FrontCard } from "./card.styles";
+import BackCard from "./Back";
+import { CardFlipper } from "./card.styles";
+import FrontCard from "./Front";
 
 const THRESHOLD_TO_FLIP_CARD = 400;
 const resetAnimation = `
@@ -58,12 +60,10 @@ const Card = () => {
   });
 
   return (
-    <div>
-      <CardFlipper id="card" {...rotatePositions}>
-        <FrontCard>This is the Front Card</FrontCard>
-        <BackCard>This is the Back Card</BackCard>
-      </CardFlipper>
-    </div>
+    <CardFlipper id="card" {...rotatePositions}>
+      <FrontCard />
+      <BackCard />
+    </CardFlipper>
   );
 };
 
