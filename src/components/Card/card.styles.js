@@ -10,12 +10,13 @@ export const CardFlipper = styled.div`
 `;
 
 export const Card = styled.div`
-  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80vw;
   max-width: 700px;
   height: 40vw;
   max-height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
 `;
