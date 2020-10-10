@@ -1,13 +1,16 @@
+import React from "react";
+import Overview from "./Content/Overview";
+
 export const TITLE = "Wender Z. Xavier";
 export const SUBHEADER = ".softwareEngineer();";
 export const CARD_CONTENT = [
   {
     title: "TL;DR",
     subtitle: "",
-    content: "This is the content of the TL.DR"
+    content: <Overview />
   },
   {
-    title: "Education",
+    title: "About Me",
     subtitle: "Where did i study?",
     content: "This is the colleges where i studied"
   },
@@ -18,6 +21,11 @@ export const CARD_CONTENT = [
   },
   {
     title: "Skills",
+    subtitle: "Things I know",
+    content: ""
+  },
+  {
+    title: "Projects",
     subtitle: "Things I know",
     content: ""
   }
