@@ -1,5 +1,4 @@
 import React from "react";
-import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CARD_CONTENT } from "../../constants";
 import {
@@ -34,7 +33,10 @@ const BackCard = () => {
           </InfoContainer>
           <LabelContainer>
             <div className="label icon-wrapper">
-              <FontAwesomeIcon className="content-icon" icon={faFileAlt} />
+              <FontAwesomeIcon
+                className="content-icon"
+                icon={content.labelIcon}
+              />
             </div>
             <div className="label label-wrapper">
               <ContentTitle className="label--title">

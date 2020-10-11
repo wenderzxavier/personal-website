@@ -1,7 +1,7 @@
 import React from "react";
 
 const Overview = () => (
-  <p>
+  <p className="bold">
     Hello World! <br />
     My name is Wender Xavier <br />
     I'm a Software Engineer based in Brazil <br />
@@ -22,7 +22,7 @@ const Overview = () => (
     >
       here
     </a>
-    <br />I post some code&nbsp;
+    <br />I post some code snippets&nbsp;
     <a href="https://github.com/wenderzxavier" rel="noreferrer" target="_blank">
       here
     </a>
@@ -39,6 +39,9 @@ const Overview = () => (
       here
     </a>
     .
+    <br />
+    <br />
+    You can find me @ wender.zacariasxavier@gmail.com
   </p>
 );
 

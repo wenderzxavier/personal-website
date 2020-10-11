@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { CARD_CONTENT } from "../../constants";
 import { Card } from "../card.styles";
 
 const colors = [
@@ -8,9 +9,9 @@ const colors = [
   "00ACAE",
   "2BD2FF",
   "1A16A0",
-  "7468D4",
   "B345A9",
-  "EE6E70"
+  "EE6E70",
+  "30374C"
 ];
 
 export const BackWrapper = styled(Card)`
@@ -58,8 +59,10 @@ export const FlexContent = styled.section`
       font-family: "Raleway", sans-serif;
       overflow: scroll;
       transform: translateY(0px);
-      transition: 0.5s ease-in-out;
+      transition: 0.6s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+      transition-delay: 0.3s;
       opacity: 1;
+      white-space: pre-wrap;
     }
 
     & > div {
@@ -88,8 +91,8 @@ export const FlexContent = styled.section`
       }
 
       .content-wrapper {
-        width: 72%;
-        height: 120%;
+        width: 38vw;
+        height: calc(${160 - CARD_CONTENT.length * 10}%);
         transform-origin: top left;
         transform: rotate(-90deg) translateX(-100%);
         transition: opacity 0.5s ease-in-out;
