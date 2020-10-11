@@ -19,7 +19,7 @@
     "react-scripts": "3.4.3",
     "styled-components": "5.2.0"
   },
-  "homepage": " https://wenderzxavier.github.io/me",
+  "homepage": " https://wenderzxavier.github.io/personal-website/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
