@@ -29,6 +29,7 @@ export const BackWrapper = styled(Card)`
 
 export const FlexContent = styled.section`
   position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   width: min(50px, 5vw);
   height: 100%;
   margin: 0 2px;

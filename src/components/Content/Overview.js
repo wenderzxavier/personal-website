@@ -9,7 +9,7 @@ const Overview = () => (
     You can find more about me&nbsp;
     <a
       href="https://www.linkedin.com/in/wenderxavier/"
-      rel="noreferrer"
+      rel="noreferrer noopener"
       target="_blank"
     >
       here
@@ -17,23 +17,31 @@ const Overview = () => (
     &nbsp;and&nbsp;
     <a
       href="https://www.dropbox.com/s/atreiao89z22arf/Wender%20Zacarias%20Xavier.pdf?dl=0"
-      rel="noreferrer"
+      rel="noreferrer noopener"
       target="_blank"
     >
       here
     </a>
     <br />I post some code snippets&nbsp;
-    <a href="https://github.com/wenderzxavier" rel="noreferrer" target="_blank">
+    <a
+      href="https://github.com/wenderzxavier"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
       here
     </a>
     ,&nbsp;
-    <a href="https://codepen.io/wenderzxavier" rel="noreferrer" target="_blank">
+    <a
+      href="https://codepen.io/wenderzxavier"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
       here
     </a>
     &nbsp;and&nbsp;
     <a
       href="https://codesandbox.io/u/wenderzxavier"
-      rel="noreferrer"
+      rel="noreferrer noopener"
       target="_blank"
     >
       here

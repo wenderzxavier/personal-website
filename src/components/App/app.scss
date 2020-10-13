@@ -28,9 +28,12 @@ ul li {
 
 .tech-stack {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   
   svg {
     padding: 2px;
+    max-width: 15px;
   }
 }

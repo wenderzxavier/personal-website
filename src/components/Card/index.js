@@ -11,7 +11,7 @@ const animationFinalPosition = (screenSize) => `
     translateY(-50%) 
     translate3d(0px, 0px, 0px) 
     rotate3d(${screenSize <= IS_MOBILE_THRESHOLD ? 1 : 0}, 1, 0, 180deg)
-    scale(${screenSize <= IS_MOBILE_THRESHOLD ? 1.2 : 1})`;
+    scale(${screenSize <= IS_MOBILE_THRESHOLD ? 1.5 : 1})`;
 
 const Card = () => {
   const rotatePositions = {
@@ -41,7 +41,7 @@ const Card = () => {
         rotatePositions.rotateZ =
           Math.abs(Math.abs(scrollTop - 700) / 100 - 3) / 10;
         rotatePositions.rotateAlpha = ((scrollTop - 400) / 600) * 180;
-        rotatePositions.scale = 1 + ((scrollTop - 400) / 600) * 0.2;
+        rotatePositions.scale = 1 + ((scrollTop - 400) / 600) * 0.5;
       } else {
         rotatePositions.rotateX = 0;
         rotatePositions.rotateY = 0;

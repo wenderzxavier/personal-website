@@ -15,6 +15,7 @@ const Work = () => (
             <Icon key={skillIdx} />
           ))}
         </div>
+        <br />
       </li>
     ))}
   </ul>
