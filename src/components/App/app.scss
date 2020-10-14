@@ -22,6 +22,35 @@ ul li {
 }
 }
 
+.call-to-scroll {
+  position: fixed;
+  bottom: 15px;
+  transform: translateX(-50%);
+  opacity: 1;
+  left: 50%;
+  transition: .5s ease-in-out;
+
+  .arrow-icon {
+    margin: 0 5px;
+    animation: 5s moveArrow infinite;
+
+    @keyframes moveArrow {
+      0% {
+        transform: translateY(0);
+      }
+      20% {
+        transform: translateY(20%);
+      }
+      40% {
+        transform: translateY(-20%);
+      }
+      60% {
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
 .skills-icons {
   padding: 5px;
 }
@@ -34,6 +63,6 @@ ul li {
   
   svg {
     padding: 2px;
-    max-width: 15px;
+    max-width: 4vw;
   }
 }

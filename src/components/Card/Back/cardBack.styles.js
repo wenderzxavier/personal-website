@@ -58,7 +58,8 @@ export const FlexContent = styled.section`
       border-radius: 1em;
       font-size: min(2vw, 1rem);
       font-family: "Raleway", sans-serif;
-      overflow: scroll;
+      overflow-y: auto;
+      overflow-x: hidden;
       transform: translateY(0px);
       transition: 0.6s cubic-bezier(0.05, 0.61, 0.41, 0.95);
       transition-delay: 0.3s;

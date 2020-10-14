@@ -24,13 +24,17 @@ const Card = () => {
 
   useLayoutEffect(() => {
     const card = document.getElementById("card");
+    const scrollMe = document.getElementsByClassName("call-to-scroll");
 
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const screenSize = window.innerWidth;
 
       if (scrollTop > FINAL_POSITION_ANIMATION) {
+        scrollMe[0].style.opacity = 0;
         return (card.style.transform = animationFinalPosition(screenSize));
+      } else {
+        scrollMe[0].style.opacity = 1;
       }
 
       if (scrollTop > THRESHOLD_TO_FLIP_CARD) {
