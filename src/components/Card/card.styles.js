@@ -18,5 +18,9 @@ export const Card = styled.div`
   height: 40vw;
   max-height: 350px;
   border-radius: 5px;
+  -webkit-perspective: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  visibility: visible;
   backface-visibility: hidden;
 `;
