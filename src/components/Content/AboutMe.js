@@ -2,42 +2,45 @@ import React from "react";
 
 const AboutMe = () => (
   <p className="light">
-    My name is Wender Xavier. I am a Software Engineer with 4+ years of
+    My name is Wender Xavier. I am a Software Engineer with 6+ years of
     professional experience.
     <br />
     <br />
-    My experience as a developer started in the academic area, developing
-    systems and algorithms in scientific initiations during graduation, which
-    made me start my Master’s degree. During my Masters, I researched in the
-    area of urban mobility, developing algorithms based on complex network
-    metrics to understand the transport systems and propose better ways of
-    dimensioning public transportation. During this time, I also co-founded a
-    computer company called HiveSys focused on developing intelligent systems to
-    improve the way other companies work. This experience of creating a company
-    brought great learning both in technical skills but also in communication
-    skills and influence with prospective clients.
+    My software engineer journey revolves around interest and curiosity. While I
+    was still a building technician, I was curious to see my brothers
+    programming on black screens and celebrating simply by waiting for user
+    input, making a silly calculation, and displaying the result on a terminal
+    screen. I decided to study computer science, and my interest in the area
+    grew more and more.
     <br />
     <br />
-    In 2019 I was hired by ThoughtWorks to work as a Consultant Developer.
-    Working for a massive South America airline, I could improve ancillaries
-    products implementing micro frontends increasing the conversion rate by more
-    than 30%. This experience was a big step in my career because it made it
-    possible to learn agile methodologies and best practices implemented in
-    large companies. I had the opportunity to work with multiple technologies
-    during my academic/professional career, which gave me a broader view of how
-    I could apply my knowledge in different areas, however, I had a shallow
-    understanding of these technologies. Trying to become a more T-shaped
-    person, I started focusing my career to become a front-end developer with
-    React as the main framework.
+    At first, it was challenging. In the first Algorithms and Data Structure
+    exam, several people in the room had been coding for a long time, and it was
+    my first contact with programming. I remember staying up all night studying
+    how the computer processes each request, the flows of a program, and which
+    data structures perform best for certain types of problems. As a result, I
+    got a 100 on the test. It was a relief and the certainty that I was in the
+    right direction.
     <br />
     <br />
-    My resilience and continuous desire to learn are my strongest qualities. I
-    try to see every problem as something waiting to be solved. But only with
-    experience and a critic view of the problem you can see the right time to
-    attack the problem, and also the most effective way. For this reason, I
-    still consider myself a mid-level senior. I’m starting to share tech-related
-    content on platforms e.g. posting code snippets (including this website). My
-    career goal is to become a Tech Lead and reference for a team.
+    During my entire graduation, I was not limited to learning in the classroom,
+    as technology was advancing rapidly into several areas that I had never
+    imagined (parallel programming, quantum programming, mobile devices,
+    autonomous cars), and I wanted to have the opportunity to know a little
+    about each technology. I became a generalist because of my curiosity.
+    <br />
+    <br />
+    Nowadays, after my graduation in Computer Science, my experience as an
+    entrepreneur, my Master's degree in Informatics, I see myself as a T-shaped
+    person, being a reference in Frontend development, but not limited to just
+    that. My curiosity and interest in computing continue to this day and have
+    taken me to extraordinary places, to fantastic books, to learn new
+    languages, to developing innovative products, to leadership positions I
+    never imagined, and to influence people to constantly improve the code we
+    send to production.
+    <br />
+    <br />
+    Be curious.
   </p>
 );
 
