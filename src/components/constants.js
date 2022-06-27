@@ -59,6 +59,7 @@ import {
   Openlayers,
   Openstreetmap,
   Pandas,
+  Perl,
   Php,
   Postcss,
   Postgresql,
@@ -132,8 +133,15 @@ export const CARD_CONTENT = [
 
 export const WORK = [
   {
+    company: "Clevertech",
+    duration: "Apr/22 - Present",
+    description:
+      "Working as a fullstack consultant to various segments industries, applying best practices to the code and impacting the team positively",
+    techstack: [ReactJs, NodeDotJs, Angular, Perl]
+  },
+  {
     company: "ThoughtWorks",
-    duration: "May/19 - Present",
+    duration: "May/19 - Apr/22",
     description: `Improved ancillaries products for a massive South America airline company, implementing a micro-frontend and BFF responsible for selecting ancillaries during the ticket purchase flow, increasing conversion rate in more than 30%.
 
 Enhanced quality of legacy code developing unit and end-to-end tests on a global personal care cosmetics group. Currently conducting an assessment to transform the frontend into micro-frontends, which will assist in delivering faster value and a more concise path to production.

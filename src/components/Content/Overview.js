@@ -5,8 +5,8 @@ const Overview = () => (
     Hello World! <br />
     My name is Wender Xavier <br />
     I'm a Software Engineer based in Brazil <br />
-    I currently work @ Thoughtworks <br />
-    <span style={{ color: "green" }}>>>> Open to offers</span>
+    I currently work @ Clevertech <br />
+    {/* <span style={{ color: "green" }}>>>> Open to offers</span> */}
     <br />
     <br />
     You can find more about me&nbsp;
@@ -45,7 +45,11 @@ const Overview = () => (
     .
     <br />
     <br />
-    You can reach me @ wender.zacariasxavier@gmail.com
+    You can reach me on{" "}
+    <a rel="noreferrer noopener" href="mailto:wender.zacariasxavier@gmail.com">
+      email
+    </a>{" "}
+    or <a href="https://www.linkedin.com/in/wenderxavier/">LinkedIn</a>
   </p>
 );
 
